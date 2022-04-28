@@ -71,7 +71,7 @@ export const About = () => {
           className="btnResume"
           onClick={() => {
             window.open(
-              "resume google drive link"
+              "https://drive.google.com/file/d/1fkQu93tdgs1JbWGk7iAPy4Wc3vlu_Oy6/view?usp=sharing"
             );
           }}
         >
