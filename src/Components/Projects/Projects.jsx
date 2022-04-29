@@ -18,6 +18,8 @@ import {
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
 import { IoLogoJavascript } from "react-icons/io";
+import skinstore from "../../assets/skinstore.jpg"
+import front from "../../assets/front.jpg"
 export const Projects = () => {
   return (
     <>
@@ -31,7 +33,8 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://images.ctfassets.net/3ouphkrynjol/f471af5e-f5b6-4074-abc2-6c8b41ba5232/3162d52421aeaa962b28e6506230a691/f471af5e-f5b6-4074-abc2-6c8b41ba5232.jpeg"
+                    // src="https://images.ctfassets.net/3ouphkrynjol/f471af5e-f5b6-4074-abc2-6c8b41ba5232/3162d52421aeaa962b28e6506230a691/f471af5e-f5b6-4074-abc2-6c8b41ba5232.jpeg"
+                    src={front}
                     alt="FrontendMasters"
                   />
                 </div>
@@ -84,7 +87,8 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://www.chicmoey.com/wp-content/uploads/2019/11/SkinStore-Black-Friday-2019-596x450.png"
+                    // src="https://www.chicmoey.com/wp-content/uploads/2019/11/SkinStore-Black-Friday-2019-596x450.png"
+                    src={skinstore}
                     alt="SkinStore"
                   />
                 </div>
@@ -94,7 +98,7 @@ export const Projects = () => {
                 <p>
                   A cloned web application of SkinStore.com which
                   provides a number of products including hair care,
-                  cosmetics and fragrance.
+                  cosmetics and fragrance. A number of brands are available.
                 </p>
                 <div>
                   <DiCss3 />
