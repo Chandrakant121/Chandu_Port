@@ -20,12 +20,125 @@ import { VscJson } from "react-icons/vsc";
 import { IoLogoJavascript } from "react-icons/io";
 import skinstore from "../../assets/skinstore.jpg"
 import front from "../../assets/front.jpg"
+import keep from "../../assets/keep.jpg"
+import movie from "../../assets/movie.jpg"
 export const Projects = () => {
   return (
     <>
       <div className="section">
         <h2 className="section__title different">Projects</h2>
         <div className="allProjects">
+
+
+
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img
+                    // src="https://images.ctfassets.net/3ouphkrynjol/f471af5e-f5b6-4074-abc2-6c8b41ba5232/3162d52421aeaa962b28e6506230a691/f471af5e-f5b6-4074-abc2-6c8b41ba5232.jpeg"
+                    src={keep}
+                    alt="Keeper App"
+                  />
+                </div>
+              </div>
+
+              <div className="project_information">
+                <h2>Keeper App</h2>
+                <p>
+                  This one is keeper app build
+                  with the help of react, JavaScript, CSS & HTML. User can add, mark through line and delete notes.
+                  I used local storage for storing the task.
+                </p>
+                <div>
+                  <SiNodedotjs />
+                  <SiExpress />
+                  <SiHtml5 />
+                  <SiMongodb />
+                  <DiCss3 />
+                  {/* <FaReact /> */}
+                  {/* <SiMaterialui /> */}
+                </div>
+
+                <div>
+                  <a
+                    href="https://keeper-app-csj.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/Chandrakant121/Keeper-App.git"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img
+                    // src="https://images.ctfassets.net/3ouphkrynjol/f471af5e-f5b6-4074-abc2-6c8b41ba5232/3162d52421aeaa962b28e6506230a691/f471af5e-f5b6-4074-abc2-6c8b41ba5232.jpeg"
+                    src={movie}
+                    alt="Keeper App"
+                  />
+                </div>
+              </div>
+
+              <div className="project_information">
+                <h2>React Movie App</h2>
+                <p>
+                  This one is Movie app build
+                  with the help of react, JavaScript, CSS & HTML. User can see the rating, overview & img of movie. He can search the movie in search bar.
+                </p>
+                <div>
+                  <SiNodedotjs />
+                  <SiExpress />
+                  <SiHtml5 />
+                  <SiMongodb />
+                  <DiCss3 />
+                  {/* <FaReact /> */}
+                  {/* <SiMaterialui /> */}
+                </div>
+
+                <div>
+                  <a
+                    href="https://react-movie-app-csj.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/Chandrakant121/React-Movie-App.git"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
 
 
           <div className="projects_container" data-aos="fade-right">
