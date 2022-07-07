@@ -62,7 +62,7 @@ export const Projects = () => {
 
                 <div>
                   <a
-                    href="https://keeper-app-csj.netlify.app/"
+                    href="https://keeper-app1.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -117,7 +117,7 @@ export const Projects = () => {
 
                 <div>
                   <a
-                    href="https://react-movie-app-csj.netlify.app/"
+                    href="https://react-movie-app1.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -172,7 +172,7 @@ export const Projects = () => {
 
                 <div>
                   <a
-                    href="https://frontendmasters01.netlify.app/"
+                    href="https://front-end-masters.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -220,7 +220,7 @@ export const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="https://skintone1.netlify.app/"
+                    href="https://skinstore.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -243,7 +243,7 @@ export const Projects = () => {
           </div>
 
 
-          <div className="projects_container" data-aos="fade-right">
+          {/* <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
                 <div>
@@ -282,149 +282,9 @@ export const Projects = () => {
                 </div>
               </div>
             </div>
-          </div>
-
-
-
-
-          {/* <div className="projects_container" data-aos="fade-right">
-            <div className="project">
-              <div className="project_videocontainer">
-                <div>
-                  <img
-                    src="https://aem.dropbox.com/cms/content/dam/dropbox/www/en-us/branding/dropbox-logo@2x.jpg"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div className="project_information">
-                <h2>DropBox Clone -Backend</h2>
-                <p>
-                  Backend API for a google drive like app built using NodeJS,
-                  Express, Mongoose, MongoDB Atlas and AWS S3 for storage. CRUD
-                  operations for users, files and folders.
-                </p>
-                <div>
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiMongodb />
-                </div>
-                <div>
-                  <a
-                    href="https://drive-system.herokuapp.com/user/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt onbt">
-                      URL for the API
-                    </span>
-                  </a>
-                  <a
-                    href="https://github.com/imbickydutta/file-system-backend"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      View Code
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="projects_container" data-aos="fade-right">
-            <div className="project">
-              <div className="project_videocontainer">
-                <div>
-                  <img
-                    src="https://i.ibb.co/934WpdD/uniqlo-clone.png"
-                    alt="Uniqlo-Clone"
-                  />
-                </div>
-              </div>
-              <div className="project_information">
-                <h2>Uniqlo Clone</h2>
-                <p>
-                  UNIQLO is a clothing apparel company, from Japan. They also
-                  sell their products in online mode through their website. We
-                  cloned their website.
-                </p>
-                <div>
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiMongodb />
-                  <SiHtml5 />
-                  <DiCss3 />
-                </div>
-                <div>
-                  <a
-                    href="https://uniqlo-clone.netlify.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt onbt">
-                      See this Live
-                    </span>
-                  </a>
-                  <a
-                    href="https://github.com/Shreyasgkhakal100/uniqlo-backend-2"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      View Code
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="projects_container" data-aos="fade-right">
-            <div className="project">
-              <div className="project_videocontainer">
-                <div>
-                  <img
-                    src="https://i.ibb.co/KVBGkdy/FFD69103-C304-42-E8-BCCD-8836-AAEFEA9-C.jpg"
-                    alt="PulsePlus-Clone"
-                  />
-                </div>
-              </div>
-              <div className="project_information">
-                <h2>PulsePlus Clone</h2>
-                <p>
-                  PulsePlus is an E-commerce web application for online Buying
-                  Medicines and Consult to Doctor and Book a near Testlab.
-                </p>
-                <div>
-                  <DiCss3 />
-                  <SiHtml5 />
-                  <IoLogoJavascript />
-                </div>
-                <div>
-                  <a
-                    href="https://pulseplus-clone.netlify.app/landing_page.html"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt onbt">
-                      See this Live
-                    </span>
-                  </a>
-                  <a
-                    href="https://github.com/Shreyasgkhakal100/www.pulseplus.in-Clone"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      View Code
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
           </div> */}
+
+
 
         </div>
       </div>
