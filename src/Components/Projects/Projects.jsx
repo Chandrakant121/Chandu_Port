@@ -19,6 +19,7 @@ import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
 import { IoLogoJavascript } from "react-icons/io";
 import skinstore from "../../assets/skinstore.jpg"
+import kohls from "../../assets/kohls.jpg"
 import front from "../../assets/front.jpg"
 import keep from "../../assets/keep.jpg"
 import movie from "../../assets/movie.jpg"
@@ -44,7 +45,7 @@ export const Projects = () => {
               </div>
 
               <div className="project_information">
-                <h2>Keeper App</h2>
+                <h2>React Keeper App</h2>
                 <p>
                   This one is keeper app build
                   with the help of react, JavaScript, CSS & HTML. User can add, mark through line and delete notes.
@@ -138,6 +139,49 @@ export const Projects = () => {
               </div>
             </div>
           </div>
+
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img src={kohls} alt="kohls" />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>React Kohls App</h2>
+                <p>
+                  A cloned web application of kohls.com which is react app & provides a number of products
+                  like Mens Cloth, Women Cloth and Kids etc. A number of brands are avilable.
+                </p>
+                <div>
+                  <DiCss3 />
+                  <SiHtml5 />
+                  <IoLogoJavascript />
+                </div>
+                <div>
+                  <a
+                    href="https://kohls-cj.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/Chandrakant121/Kohl-s_App.git"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
 
 
 
@@ -243,46 +287,6 @@ export const Projects = () => {
           </div>
 
 
-          {/* <div className="projects_container" data-aos="fade-right">
-            <div className="project">
-              <div className="project_videocontainer">
-                <div>
-                  <img src="https://cdn.dribbble.com/users/2081/screenshots/6024594/snowflake_weather_app_icon_4x.png" alt="" />
-                </div>
-              </div>
-              <div className="project_information">
-                <h2>Weather App</h2>
-                <p>
-                  Location based weather app. User can also search for their cities to see weather data of respective places.
-                </p>
-                <div>
-                  <DiCss3 />
-                  <SiHtml5 />
-                  <IoLogoJavascript />
-                </div>
-                <div>
-                  <a
-                    href="https://weatherapp-csj.netlify.app"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt onbt">
-                      See this Live
-                    </span>
-                  </a>
-                  <a
-                    href="https://github.com/Chandrakant121/Weather_app.git"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      View Code
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div> */}
 
 
 
