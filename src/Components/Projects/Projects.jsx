@@ -253,58 +253,6 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    // src="https://images.ctfassets.net/3ouphkrynjol/f471af5e-f5b6-4074-abc2-6c8b41ba5232/3162d52421aeaa962b28e6506230a691/f471af5e-f5b6-4074-abc2-6c8b41ba5232.jpeg"
-                    src={movie}
-                    alt="movie App"
-                  />
-                </div>
-              </div>
-
-              <div className="project_information">
-                <h2>React Movie App</h2>
-                <p>
-                  This one is Movie app build
-                  with the help of react, JavaScript, Node, Express, MongoDB, Mongoose,JWT Token, CSS & HTML. User can see the rating, overview & img of movie. He can search the movie in search bar.
-                </p>
-                <div>
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiHtml5 />
-                  <SiMongodb />
-                  <DiCss3 />
-                  <FaReact />
-                  {/* <SiMaterialui /> */}
-                </div>
-
-                <div>
-                  <a
-                    href="https://react-movie-app-eight-alpha.vercel.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt onbt">
-                      See this Live
-                    </span>
-                  </a>
-                  <a
-                    href="https://github.com/Chandrakant121/React-Movie-App"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      View Code
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="projects_container" data-aos="fade-right">
-            <div className="project">
-              <div className="project_videocontainer">
-                <div>
-                  <img
                     // src="https://www.chicmoey.com/wp-content/uploads/2019/11/SkinStore-Black-Friday-2019-596x450.png"
                     src={skinstore}
                     alt="SkinStore"
