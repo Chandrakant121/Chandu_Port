@@ -21,12 +21,9 @@ export const About = () => {
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-          An innovative and observant full stack developer with
-          expertise in MongoDB, Express, React, and Node. A
-          team player with a passion for solving engineering
-          and systemic problems, seeking a challenging
-          position with a product company.
-
+          Experienced Node.js developer with a year of proven expertise in crafting resilient backend solutions. Skilled in
+          harnessing Node.js capabilities to build high-performance, scalable server-side applications. Collaborative team
+          player with a track record of delivering innovative and reliable software solutions.
         </p>
         <div className="about__contact center">
           <a
@@ -71,7 +68,7 @@ export const About = () => {
           className="btnResume"
           onClick={() => {
             window.open(
-              "https://drive.google.com/drive/folders/1T7dcM8FRymf8kOc4Tq-_PRv_LsSvHI9j?usp=sharing"
+              "https://drive.google.com/file/d/13IdI7SPd2Zfs9oFUCQVOQwRSZGIp1xC0/view?usp=drive_link"
             );
           }}
         >

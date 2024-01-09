@@ -31,6 +31,45 @@ export const Timeline = () => {
           My <span className="different">Timeline 💫</span>
         </h2>
         <VerticalTimeline lineColor={linecolor}>
+
+          <VerticalTimelineElement
+            date={"28/11/2023 - Present"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Experience
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              The Metromax Group
+            </h4>
+            <p data-aos="fade-right">
+              Experienced backend Node.js developer with one year of proven expertise. Skilled in designing, optimizing, and maintaining robust server-side applications. Collaborative team player with a focus on efficiency and code quality. Ready to contribute to impactful projects.
+            </p>
+
+          </VerticalTimelineElement>
+
+
           <VerticalTimelineElement
             date={"10/2021 – 05/2022"}
             contentStyle={{

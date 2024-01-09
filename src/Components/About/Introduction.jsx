@@ -21,25 +21,18 @@ export const Introduction = () => {
             </div>
             <div className="introduction_datacontainer">
               <h4>
-                Hello, I am {" "}
-                <span className="different">Chandrakant Santoshrao Joshi </span>  from{" "}
-                <span className="different">
-                  {" "}
-                  Nanded, Maharashtra (India)
-                </span>
-                . I have completed my graduation in BE (Mechanical Engineering)
-                from{" "}
-                <span className="different">
-                  MGM'S Coe Nanded (MH)
-                </span>
-                . Then I joined full stack web development course at{" "}
-                <span className="different">Masai School</span> a military type
-                coding school. I have hands on experience in {" "}
-                <span className="different">Frontend</span>{" "} and {" "}
-                <span className="different">Backend</span> technology with {" "}
-                <span className="different">Data Structure & Algorithms.</span>
+                Hello, I am <span className="different">Chandrakant Santoshrao Joshi</span> from{" "}
+                <span className="different">Nanded, Maharashtra (India)</span>. I graduated with a
+                degree in BE (Mechanical Engineering) from{" "}
+                <span className="different">MGM'S Coe Nanded (MH)</span>. Subsequently, I enrolled in a
+                rigorous full-stack web development course at{" "}
+                <span className="different">Masai School</span>, a military-style coding school. Building
+                upon this foundation, I have gained one year of valuable experience in Node.js, further
+                solidifying my expertise in both Frontend and Backend technologies, complemented by
+                proficiency in Data Structures & Algorithms.
               </h4>
-              <h4>Soft Skills :</h4>
+
+              {/* <h4>Soft Skills :</h4>
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />
@@ -63,7 +56,7 @@ export const Introduction = () => {
                   <ExitToAppIcon />
                 </span>
                 Problem Solving{" "}
-              </h4>
+              </h4> */}
             </div>
           </div>
         </div>

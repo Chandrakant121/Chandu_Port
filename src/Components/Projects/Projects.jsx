@@ -14,6 +14,7 @@ import {
   SiJavascript,
   SiMongodb,
   SiNodedotjs,
+  SiNestjs,
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
@@ -23,7 +24,10 @@ import kohls from "../../assets/kohls.jpg"
 import front from "../../assets/front.jpg"
 import keep from "../../assets/keep.jpg"
 import flipkart from "../../assets/flipkart.jpg"
+import bingo from "../../assets/bingo.png"
+import lmd from "../../assets/lmd.png"
 import movie from "../../assets/movie.jpg"
+import casino from "../../assets/casino2.jpeg"
 export const Projects = () => {
   return (
     <>
@@ -32,6 +36,164 @@ export const Projects = () => {
         <div className="allProjects">
 
 
+
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img
+                    // src="https://images.ctfassets.net/3ouphkrynjol/f471af5e-f5b6-4074-abc2-6c8b41ba5232/3162d52421aeaa962b28e6506230a691/f471af5e-f5b6-4074-abc2-6c8b41ba5232.jpeg"
+                    src={bingo}
+                    alt="Keeper App"
+                  />
+                </div>
+              </div>
+
+              <div className="project_information">
+                <h2>Bingo Bash</h2>
+                <p>
+                  My main tasks were handling server-to-server calls,
+                  managing user information, and creating secure payloads for smooth communication with the Scopely server.
+                  I played a crucial role in ensuring fast and secure data transfer.
+                </p>
+                <div>
+                  <SiNodedotjs />
+                  <SiExpress />
+                  <SiNestjs />
+                  <FaReact />
+                  <SiMaterialui />
+                </div>
+
+                <div>
+                  <a
+                    href="https://www.bingobash.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                  // href=""
+                  // target="_blank"
+                  // rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* ====== */}
+
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img
+                    // src="https://images.ctfassets.net/3ouphkrynjol/f471af5e-f5b6-4074-abc2-6c8b41ba5232/3162d52421aeaa962b28e6506230a691/f471af5e-f5b6-4074-abc2-6c8b41ba5232.jpeg"
+                    src={lmd}
+                    alt="Keeper App"
+                  />
+                </div>
+              </div>
+
+              <div className="project_information">
+                <h2>LMD</h2>
+                <p>
+                  Facilitated the onboarding of a
+                  transportation company, handling vehicle data, driver details, and trip scheduling. Implemented a user-friendly
+                  system, showcasing proficiency in full-stack development and project management.
+                </p>
+                <div>
+                  <SiNodedotjs />
+                  <SiExpress />
+                  <SiNestjs />
+                  <FaReact />
+                  <SiMaterialui />
+                </div>
+
+                <div>
+                  <a
+                    href="https://dev.lmd.innowyze.in/login"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                  // href=""
+                  // target="_blank"
+                  // rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          {/* ========= */}
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img
+                    // src="https://images.ctfassets.net/3ouphkrynjol/f471af5e-f5b6-4074-abc2-6c8b41ba5232/3162d52421aeaa962b28e6506230a691/f471af5e-f5b6-4074-abc2-6c8b41ba5232.jpeg"
+                    src={casino}
+                    alt="Casino"
+                  />
+                </div>
+              </div>
+
+              <div className="project_information">
+                <h2>Casino</h2>
+                <p>
+                  In my recent project, I led server-to-server communications, managed user data, and designed secure payload strategies for seamless Scopely server interactions. My focus on optimizing data transfer efficiency highlighted my commitment to both speed and security.
+                </p>
+                <div>
+                  <SiNodedotjs />
+                  <SiExpress />
+                  <SiNestjs />
+                  <FaReact />
+                  <SiMaterialui />
+                </div>
+
+                <div>
+                  <a
+                  // href="https://dev.lmd.innowyze.in/login"
+                  // target="_blank"
+                  // rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                  // href=""
+                  // target="_blank"
+                  // rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          {/* ======== */}
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
@@ -39,7 +201,7 @@ export const Projects = () => {
                   <img
                     // src="https://images.ctfassets.net/3ouphkrynjol/f471af5e-f5b6-4074-abc2-6c8b41ba5232/3162d52421aeaa962b28e6506230a691/f471af5e-f5b6-4074-abc2-6c8b41ba5232.jpeg"
                     src={flipkart}
-                    alt="Keeper App"
+                    alt="Flipkart App"
                   />
                 </div>
               </div>
@@ -93,7 +255,7 @@ export const Projects = () => {
                   <img
                     // src="https://images.ctfassets.net/3ouphkrynjol/f471af5e-f5b6-4074-abc2-6c8b41ba5232/3162d52421aeaa962b28e6506230a691/f471af5e-f5b6-4074-abc2-6c8b41ba5232.jpeg"
                     src={movie}
-                    alt="Keeper App"
+                    alt="movie App"
                   />
                 </div>
               </div>
@@ -283,9 +445,6 @@ export const Projects = () => {
             </div>
           </div>
 
-
-
-
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
@@ -338,22 +497,6 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-
-
-
-
-
-
-        
-
-
-        
-
-
-        
-
-
-
         </div>
       </div>
     </>
