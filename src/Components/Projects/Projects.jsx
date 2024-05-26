@@ -22,7 +22,7 @@ import { IoLogoJavascript } from "react-icons/io";
 import skinstore from "../../assets/skinstore.jpg"
 import kohls from "../../assets/kohls.jpg"
 import front from "../../assets/front.jpg"
-import keep from "../../assets/keep.jpg"
+import food from "../../assets/food.jpg"
 import flipkart from "../../assets/flipkart.jpg"
 import bingo from "../../assets/bingo.png"
 import lmd from "../../assets/lmd.png"
@@ -34,8 +34,6 @@ export const Projects = () => {
       <div className="section">
         <h2 className="section__title different">Projects</h2>
         <div className="allProjects">
-
-
 
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
@@ -192,6 +190,57 @@ export const Projects = () => {
             </div>
           </div>
 
+          {/* ======== */}
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img
+                    src={food}
+                    alt="Keeper App"
+                  />
+                </div>
+              </div>
+
+              <div className="project_information">
+                <h2>Food App</h2>
+                <p>
+                  Welcome to the Food App, a comprehensive platform designed to enhance your online food ordering experience. This app combines a user-friendly interface with powerful functionalities to ensure a seamless and enjoyable experience for users.
+                </p>
+                <div>
+                  <SiNodedotjs />
+                  <SiExpress />
+                  <SiHtml5 />
+                  <SiMongodb />
+                  <DiCss3 />
+                  {/* <FaReact /> */}
+                  {/* <SiMaterialui /> */}
+                </div>
+
+                <div>
+                  <a
+                    href="https://github.com/Chandrakant121/Swiggy.git"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/Chandrakant121/Swiggy.git"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
 
           {/* ======== */}
           <div className="projects_container" data-aos="fade-right">
@@ -273,7 +322,7 @@ export const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="https://skinstore.netlify.app/"
+                    href="https://github.com/murali0101/Skin-Store-Construct-Week-Project.git"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -295,62 +344,8 @@ export const Projects = () => {
             </div>
           </div>
 
-          <div className="projects_container" data-aos="fade-right">
-            <div className="project">
-              <div className="project_videocontainer">
-                <div>
-                  <img
-                    // src="https://images.ctfassets.net/3ouphkrynjol/f471af5e-f5b6-4074-abc2-6c8b41ba5232/3162d52421aeaa962b28e6506230a691/f471af5e-f5b6-4074-abc2-6c8b41ba5232.jpeg"
-                    src={front}
-                    alt="FrontendMasters"
-                  />
-                </div>
-              </div>
-
-              <div className="project_information">
-                <h2>FrontendMasters</h2>
-                <p>
-                  A cloned web application of FrontendMasters.com.
-                  This is an E-learning platform for users to learn
-                  various types of technology.
-                </p>
-                <div>
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiHtml5 />
-                  <SiMongodb />
-                  <DiCss3 />
-                  {/* <FaReact /> */}
-                  {/* <SiMaterialui /> */}
-                </div>
-
-                <div>
-                  <a
-                    href="https://front-end-masters.vercel.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt onbt">
-                      See this Live
-                    </span>
-                  </a>
-                  <a
-                    href="https://github.com/baluramk6/frontandmaster-clone.git"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      View Code
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
           {/* ========= */}
-
+          {/* 
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
@@ -391,60 +386,8 @@ export const Projects = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div className="projects_container" data-aos="fade-right">
-            <div className="project">
-              <div className="project_videocontainer">
-                <div>
-                  <img
-                    // src="https://images.ctfassets.net/3ouphkrynjol/f471af5e-f5b6-4074-abc2-6c8b41ba5232/3162d52421aeaa962b28e6506230a691/f471af5e-f5b6-4074-abc2-6c8b41ba5232.jpeg"
-                    src={keep}
-                    alt="Keeper App"
-                  />
-                </div>
-              </div>
-
-              <div className="project_information">
-                <h2>React Keeper App</h2>
-                <p>
-                  This one is keeper app build
-                  with the help of react, JavaScript, CSS & HTML. User can add, mark through line and delete notes.
-                  I used local storage for storing the task.
-                </p>
-                <div>
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiHtml5 />
-                  <SiMongodb />
-                  <DiCss3 />
-                  {/* <FaReact /> */}
-                  {/* <SiMaterialui /> */}
-                </div>
-
-                <div>
-                  <a
-                    href="https://keeper-app1.vercel.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt onbt">
-                      See this Live
-                    </span>
-                  </a>
-                  <a
-                    href="https://github.com/Chandrakant121/Keeper-App.git"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      View Code
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </>

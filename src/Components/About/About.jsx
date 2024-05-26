@@ -21,9 +21,7 @@ export const About = () => {
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-          Experienced Node.js developer with a year of proven expertise in crafting resilient backend solutions. Skilled in
-          harnessing Node.js capabilities to build high-performance, scalable server-side applications. Collaborative team
-          player with a track record of delivering innovative and reliable software solutions.
+          Experienced Full Stack Developer with a two years of proven expertise in crafting resilient backend solutions using Node.js. Skilled in harnessing Node.js capabilities to build high-performance, scalable server-side applications, and proficient in front-end technologies for creating dynamic and user-friendly interfaces. Collaborative team player with a track record of delivering innovative and reliable software solutions.
         </p>
         <div className="about__contact center">
           <a

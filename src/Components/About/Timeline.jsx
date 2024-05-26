@@ -64,7 +64,7 @@ export const Timeline = () => {
               The Metromax Group
             </h4>
             <p data-aos="fade-right">
-              Experienced backend Node.js developer with one year of proven expertise. Skilled in designing, optimizing, and maintaining robust server-side applications. Collaborative team player with a focus on efficiency and code quality. Ready to contribute to impactful projects.
+              Experienced backend Node.js developer with two year of proven expertise. Skilled in designing, optimizing, and maintaining robust server-side applications. Collaborative team player with a focus on efficiency and code quality. Ready to contribute to impactful projects.
             </p>
 
           </VerticalTimelineElement>
