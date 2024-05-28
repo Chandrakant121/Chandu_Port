@@ -21,7 +21,7 @@ export const About = () => {
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-          Experienced Full Stack Developer with a two years of proven expertise in crafting resilient backend solutions using Node.js. Skilled in harnessing Node.js capabilities to build high-performance, scalable server-side applications, and proficient in front-end technologies for creating dynamic and user-friendly interfaces. Collaborative team player with a track record of delivering innovative and reliable software solutions.
+          Experienced Full Stack Developer with a three plus years of proven expertise in crafting resilient backend solutions using Node.js. Skilled in harnessing Node.js capabilities to build high-performance, scalable server-side applications, and proficient in front-end technologies for creating dynamic and user-friendly interfaces. Collaborative team player with a track record of delivering innovative and reliable software solutions.
         </p>
         <div className="about__contact center">
           <a
@@ -66,7 +66,7 @@ export const About = () => {
           className="btnResume"
           onClick={() => {
             window.open(
-              "https://drive.google.com/file/d/1LCeglyI7A7jA5Y_mJpbfyWmPspauLbog/view?usp=drive_link"
+              "https://drive.google.com/file/d/1mEfnXrzVYS_eWHa85LZtJ0jvE60rss9q/view?usp=drive_link"
             );
           }}
         >
